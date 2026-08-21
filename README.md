@@ -1,8 +1,6 @@
 <h1 align="left">Hi! I'm Prachiti 👋</h1>
 <h3>Enterprise Technology Leader & Builder | Data · AI · Architecture · Technical GTM</h3>
 
-[🔗 LinkedIn](https://www.linkedin.com/in/prachitibehere/) · [💻 GitHub](https://github.com/PrachitiB)
-
 Over nearly two decades across enterprise architecture, consulting, and technical leadership, I’ve helped organizations scale complex technologies. Today, I'm combining that enterprise foundation with modern AI tooling—turning deep domain expertise into working software in hours, not months. 
 
 I build at the intersection of **business problems, technology, and the people who make solutions happen**. My focus isn't AI because it's a buzzword; it's using AI to simplify complex workflows, accelerate how people work, and turn ideas into practical products.
@@ -74,3 +72,12 @@ Nearly two decades of scaling technology and connecting **Sales → Engineering 
 ---
 ### 👀 Profile Visitors
 ![Visitor Count](https://komarev.com/ghpvc/?username=PrachitiB&color=CC5533&style=for-the-badge)
+
+---
+## 📫 Connect
+I'm always interested in conversations around **Data, AI, enterprise architecture, technical GTM, and building useful software**.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-CC5533?style=flat&logo=linkedin&logoColor=gray&labelColor=f0f0f0)](https://www.linkedin.com/in/prachitibehere/)
+[![GitHub](https://img.shields.io/badge/GitHub-View_my_repos-CC5533?style=flat&logo=github&logoColor=gray&labelColor=f0f0f0)](https://github.com/PrachitiB)
+
+
