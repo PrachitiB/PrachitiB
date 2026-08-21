@@ -17,9 +17,8 @@ I start by mapping the problem, applying deterministic logic where it is suffici
 This results in hybrid systems featuring structured data persistence, low-cost execution, and high explainability rather than blindly wrapping an LLM around an application.
 
 ---
-## 🧪 Workflow & Product Experiments
-I’ve been exploring a simple question: **Where and how can AI help accelerate?** 
-These projects are rapid product/workflow prototypes. They use deterministic workflows where appropriate, leveraging a core philosophy: **No unnecessary signup  immediate value  user-controlled next step.**
+## 🤖 AI, Data & Agentic Projects
+A collection of applied systems and workflow prototypes exploring **where and how AI actually adds value**. Rather than applying LLMs blindly, these projects balance deterministic logic, structured data, and targeted AI reasoning to solve real-world problems.
 
 ### GTM Audit 
 **Private source code · Built with Lovable, Supabase, GitHub & AI**
@@ -30,7 +29,7 @@ An AI-powered assessment and advisory platform designed to help organizations ev
 ### Scout — Personal Opportunity Intelligence
 **In development · Python · Supabase · Cursor**
 A local job-discovery system designed to reduce noise in the job search process. Scout collects listings, normalizes data, and applies strict deterministic filtering *before* any LLM is ever involved.This ensures predictable behavior, lower cost, explainability, and clean datasets.
-* **Pipeline Architecture:** Job Sources $\rightarrow$ Extract & Normalize $\rightarrow$ Deterministic Filter $\rightarrow$ Supabase $\rightarrow$ LLM Scorer & Resume Agent.*
+* **Pipeline Architecture:** Job Sources ➔ Extract & Normalize ➔ Deterministic Filter ➔ Supabase ➔ LLM Scorer & Resume Agent.
   
 ### Private Product Experiments
 **One-day rapid prototyping using Lovable & Supabase**
@@ -40,15 +39,16 @@ A compressed build window exploring how quickly deep domain expertise could be t
 * **Northstar:** Four-year planning experience to help students and parents systematically navigate high-school pathways intentionally.
 * **Celestia Wellness:** Personalized wellness experience adapting yoga and meditation routines to user's availability.
 
-### Agentic AI Experiments
-Experiments with **agentic workflows, RAG architectures, tool use, memory, and orchestration**. Focused on building systems that are useful, observable, and grounded in real-world workflows:
-* **Pipeline:** Context → Reasoning → Tools → Memory → Action → Feedback
+### 🔐 Future Roadmap: Private Interview Coach
+**Planned Architecture · Local-First Design**
+Exploring a local-first interview preparation system built around career history, stories, and projects. The goal is to keep sensitive career data private and under local control rather than sending an entire professional corpus to a hosted AI service.
+* **Architecture Concept:** Private Knowledge Base ➔ BGE Embeddings ➔ Retrieval ➔ Reranking ➔ Local LLM (Ollama / AnythingLLM).
+
 ---
 ## 🛠️ What I Build & Core Themes
 * **Enterprise Data & AI:** Cloud data platforms, data architecture, RAG, vector databases, and AI governance.
 * **Technical GTM & Customer Solutions:** Solution architecture, discovery, POCs, value engineering, and professional services strategy.
 * **Rapid Application Prototyping & Systems:** Turning complex concepts into working applications quickly—balancing deterministic control with targeted AI reasoning.
-
 ---
 ## 🧭 Leadership & Background
 Nearly two decades of scaling technology and connecting **Sales → Engineering → Delivery → Customer Value**. 
@@ -76,7 +76,6 @@ Nearly two decades of scaling technology and connecting **Sales → Engineering 
 ---
 ## 📫 Connect
 I'm always interested in conversations around **Data, AI, enterprise architecture, technical GTM, and building useful software**.
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-CC5533?style=flat&logo=linkedin&logoColor=gray&labelColor=f0f0f0)](https://www.linkedin.com/in/prachitibehere/)
 [![GitHub](https://img.shields.io/badge/GitHub-View_my_repos-CC5533?style=flat&logo=github&logoColor=gray&labelColor=f0f0f0)](https://github.com/PrachitiB)
 
