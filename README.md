@@ -26,7 +26,7 @@ An AI-powered assessment and advisory platform designed to help organizations ev
 * **The Experience:** Users answer a series of structured questions and receive their three primary friction points **without requiring account creation or signups**. The conversion point is simple: if you want help going further, here is a calendar link.
 * **Architecture highlights:** Lovable · Supabase · PostgreSQL · AI-assisted development 
 
-### Scout — Personal Opportunity Intelligence
+### Scout - Personal Opportunity Intelligence
 **In development · Python · Supabase · Cursor**
 A local job-discovery system designed to reduce noise in the job search process. Scout collects listings, normalizes data, and applies strict deterministic filtering *before* any LLM is ever involved.This ensures predictable behavior, lower cost, explainability, and clean datasets.
 * **Pipeline Architecture:** Job Sources ➔ Extract & Normalize ➔ Deterministic Filter ➔ Supabase ➔ LLM Scorer & Resume Agent.
