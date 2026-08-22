@@ -22,19 +22,20 @@ A collection of applied systems and workflow prototypes exploring **where and ho
 
 ### GTM Audit 
 **Private source code · Built with Lovable, Supabase, GitHub & AI**
-An AI-powered assessment and advisory platform designed to help organizations evaluate their data, AI, and technology maturity. 
+A structured assessment and advisory platform designed to help organizations evaluate their sales motion through a guided, no-signup experience.
 * **The Experience:** Users answer a series of structured questions and receive their three primary friction points **without requiring account creation or signups**. The conversion point is simple: if you want help going further, here is a calendar link.
-* **Architecture highlights:** Lovable · Supabase · PostgreSQL · AI-assisted development 
+* **Architecture highlights:** Lovable · Supabase · PostgreSQL · Structured workflows · AI-assisted development 
 
 ### Scout - Personal Opportunity Intelligence
 **In development · Python · Supabase · Cursor**
 A local job-discovery system designed to reduce noise in the job search process. Scout collects listings, normalizes data, and applies strict deterministic filtering *before* any LLM is ever involved.This ensures predictable behavior, lower cost, explainability, and clean datasets.
-* **Pipeline Architecture:** Job Sources ➔ Extract & Normalize ➔ Deterministic Filter ➔ Supabase ➔ LLM Scorer & Resume Agent.
+* **Pipeline Architecture:** Job Sources ➔ Extract & Normalize ➔ Deduplicate ➔ Deterministic Filter & Scoring ➔ Supabase/State ➔ LLM-based reasoning and Resume Agent (in development).
+* **Design principle:** Deterministic filtering and scoring happen before LLM-based reasoning to improve predictability, cost, explainability, and data quality.
   
 ### Private Product Experiments
 **One-day rapid prototyping using Lovable & Supabase**
-A compressed build window exploring how quickly deep domain expertise could be translated into working software without traditional overhead. While the source applications are no longer publicly hosted, they reflect core rapid-product philosophies: *immediate value, zero upfront friction, and user-controlled next steps.* 
-*(Read the full build story on my [🔗 LinkedIn Post](https://lnkd.in/p/gizK2tDj))*
+A compressed build window exploring how quickly deep domain expertise could be translated into working software without traditional overhead. While the source applications are no longer publicly hosted, they reflect core rapid-product philosophies: *immediate value, zero upfront friction, and user-controlled next steps.
+**(Read the full build story on my [🔗 LinkedIn Post](https://lnkd.in/p/gizK2tDj))*
 * **StressMeter:** A lightweight workflow exploring how users can identify and reflect on potential stress patterns without requiring signups.
 * **Northstar:** Four-year planning experience to help students and parents systematically navigate high-school pathways intentionally.
 * **Celestia Wellness:** Personalized wellness experience adapting yoga and meditation routines to user's availability.
@@ -43,12 +44,11 @@ A compressed build window exploring how quickly deep domain expertise could be t
 **Planned Architecture · Local-First Design**
 Exploring a local-first interview preparation system built around career history, stories, and projects. The goal is to keep sensitive career data private and under local control rather than sending an entire professional corpus to a hosted AI service.
 * **Architecture Concept:** Private Knowledge Base ➔ BGE Embeddings ➔ Retrieval ➔ Reranking ➔ Local LLM (Ollama / AnythingLLM).
-
 ---
 ## 🛠️ What I Build & Core Themes
-* **Enterprise Data & AI:** Cloud data platforms, data architecture, RAG, vector databases, and AI governance.
+* **Enterprise Data & AI:** Cloud data platforms, data architecture, RAG, vector databases,agentic systems, human-in-the-loop workflows, and AI governance.
 * **Technical GTM & Customer Solutions:** Solution architecture, discovery, POCs, value engineering, and professional services strategy.
-* **Rapid Application Prototyping & Systems:** Turning complex concepts into working applications quickly—balancing deterministic control with targeted AI reasoning.
+* **Rapid Application Prototyping & Systems:** Turning complex domain problems into working applications quickly—balancing deterministic controls, structured data, targeted AI reasoning, and human judgment.
 ---
 ## 🧭 Leadership & Background
 Nearly two decades of scaling technology and connecting **Sales → Engineering → Delivery → Customer Value**. 
@@ -57,12 +57,11 @@ Nearly two decades of scaling technology and connecting **Sales → Engineering 
 * **Build Philosophy:** I can take a domain problem, design the user experience and logic, and use modern AI tooling to rapidly turn it into software that people can actually use.
 ---
 ## 🧰 Tech Stack
-* **AI & LLMs:** Claude · ChatGPT · Gemini · Ollama · RAG · Agentic AI · AI Governance · Prompt Engineering
+* **AI & LLMs:** Claude · ChatGPT · Gemini · Ollama · LLM Applications · RAG · Vector Databases · Agentic AI · Human-in-the-Loop Systems 
 * **AI-Assisted Development:** Cursor · Claude Code · Lovable
 * **Languages & Frontend:** Python · SQL · TypeScript · React · Tailwind CSS
 * **Data & Cloud Infra:** AWS · Azure · GCP · Supabase · PostgreSQL · MySQL · SQL Server · Teradata · SingleStore · DB2
 * **Observability & Analytics:** Grafana · Prometheus · Tableau · Power BI
-
 ---
 ## 🚀 What I'm Exploring Right Now
 * Agentic systems solving real enterprise workflows
